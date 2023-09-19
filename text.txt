@@ -1,0 +1,6 @@
+Automation Framework based for E-Commerce Application is based on Java Selenium TestNG with Page Object Model and Data Driver concept
+
+-Created Framework and Folder Structure
+-Created Page Object Class
+-Created Config.properties class to store our URLs and Browser Informations
+-Created Read Config class to read the file and get the value
