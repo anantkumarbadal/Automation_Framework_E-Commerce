@@ -9,9 +9,9 @@ public class ReadConfigFile {
 
     Properties properties;
 
-    String filePath = "config.properties";
+    String filePath = "src/test/resources/config.properties";
 
-    public void readConfigFile() {
+    public ReadConfigFile() {
         properties = new Properties();
 
         try {
@@ -34,6 +34,19 @@ public class ReadConfigFile {
         }
         else
             throw new RuntimeException("url not specified in config file");
+    }
+
+    public String getBrowser()
+    {
+        String value = properties.getProperty("browser");
+
+        //checking if the value is not null
+        if (value != null)
+        {
+            return value;
+        }
+        else
+            throw new RuntimeException("browser not specified in config file");
     }
 
 

@@ -22,12 +22,12 @@ public class HomePage {
 
     //Identifying the WebElements on the Homepage
     @FindBy(linkText = "Create an Account")
-    WebElement createAnAccount;
+    WebElement link_createAnAccount;
 
     //Identify action on WebElement
-    public void createAnAccount()
+    public void clickCreateAnAccount()
     {
-        createAnAccount.click();
+        link_createAnAccount.click();
     }
 
 

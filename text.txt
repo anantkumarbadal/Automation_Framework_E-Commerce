@@ -4,3 +4,8 @@ Automation Framework based for E-Commerce Application is based on Java Selenium 
 -Created Page Object Class
 -Created Config.properties class to store our URLs and Browser Informations
 -Created Read Config class to read the file and get the value
+-Added log4j2 config file
+-Created Base Class
+-Created 1st Test case
+-Fixed the TestNG Exception causing due to ReadConfig file was initialised in method instead on Constructor
+-Run the 1st Test Case
