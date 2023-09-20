@@ -27,9 +27,9 @@ public class TC001_CreateAccountPageTest extends BaseClass {
         Thread.sleep(1000);
         cp.enterEmailAddress("qatestingsdet@gmail.com");
         Thread.sleep(1000);
-        cp.enterPassword("Test@1234");
+        cp.enterPassword("Testing123456789@!");
         Thread.sleep(1000);
-        cp.enterConfirmPassword("Test@1234");
+        cp.enterConfirmPassword("Testing123456789@!");
         Thread.sleep(1000);
         cp.clickCreateAccountButton();
         Thread.sleep(3000);

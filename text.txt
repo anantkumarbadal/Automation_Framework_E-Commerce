@@ -8,4 +8,4 @@ Automation Framework based for E-Commerce Application is based on Java Selenium 
 -Created Base Class
 -Created 1st Test case
 -Fixed the TestNG Exception causing due to ReadConfig file was initialised in method instead on Constructor
--Run the 1st Test Case
+-Run the 1st Test Case after fixing in
