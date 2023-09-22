@@ -13,21 +13,30 @@ public class HomePage {
     WebDriver driver;
 
     //Creating Constructor to initialise the webdriver
-    public HomePage(WebDriver rdriver) //remote driver
+    public HomePage(WebDriver driver) //remote driver
     {
-        this.driver = rdriver;
+        this.driver = driver;
 
-        PageFactory.initElements(rdriver, this); //rdriver is used to search the Web Elements
+        PageFactory.initElements(driver, this); //driver is used to search the Web Elements
     }
 
     //Identifying the WebElements on the Homepage
     @FindBy(linkText = "Create an Account")
     WebElement link_createAnAccount;
 
+    @FindBy(linkText = "Sign In")
+    WebElement link_signIn;
+
+
     //Identify action on WebElement
     public void clickCreateAnAccount()
     {
         link_createAnAccount.click();
+    }
+
+    public void clickSignIn()
+    {
+        link_signIn.click();
     }
 
 

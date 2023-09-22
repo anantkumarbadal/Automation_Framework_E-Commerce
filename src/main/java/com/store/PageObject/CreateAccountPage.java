@@ -11,14 +11,14 @@ public class CreateAccountPage {
     WebDriver driver;
 
     //Creating Constructor to initialise the webdriver
-    public CreateAccountPage(WebDriver rdriver) //remote driver
+    public CreateAccountPage(WebDriver driver) //remote driver
     {
-        this.driver = rdriver;
+        this.driver = driver;
 
-        PageFactory.initElements(rdriver, this); //rdriver is used to search the Web Elements
+        PageFactory.initElements(driver, this); //driver is used to search the Web Elements
     }
 
-    //Identifying the WebElements on the Homepage
+    //Identifying the WebElements on the Create Account Page
     @FindBy(id = "firstname")
     WebElement txt_firstName;
 
