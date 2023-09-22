@@ -1,0 +1,78 @@
+[INFO ] 2023-09-21 00:57:17.370 [main] MyEComStore - URL Opened
+[INFO ] 2023-09-21 00:57:18.905 [main] MyEComStore - Clicked on Create Account in HomePage
+[INFO ] 2023-09-21 00:57:19.110 [main] MyEComStore - Enter FirstName
+[INFO ] 2023-09-21 00:57:20.186 [main] MyEComStore - Enter LastName
+[INFO ] 2023-09-21 00:57:21.298 [main] MyEComStore - Enter Email Address
+[INFO ] 2023-09-21 00:57:22.399 [main] MyEComStore - Enter Password
+[INFO ] 2023-09-21 00:57:23.491 [main] MyEComStore - Enter Confirm Password
+[INFO ] 2023-09-21 00:57:27.913 [main] MyEComStore - Clicked on Create Account Button
+[INFO ] 2023-09-21 00:57:35.801 [main] MyEComStore - URL Opened
+[INFO ] 2023-09-21 00:57:37.354 [main] MyEComStore - Clicked on Sign In Link in HomePage
+[INFO ] 2023-09-21 00:57:37.595 [main] MyEComStore - Entered Email
+[INFO ] 2023-09-21 00:57:38.666 [main] MyEComStore - Entered Password
+[INFO ] 2023-09-21 00:57:41.616 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2023-09-21 01:01:09.440 [main] MyEComStore - URL Opened
+[INFO ] 2023-09-21 01:01:10.750 [main] MyEComStore - Clicked on Sign In Link in HomePage
+[INFO ] 2023-09-21 01:01:10.961 [main] MyEComStore - Entered Email
+[INFO ] 2023-09-21 01:01:12.034 [main] MyEComStore - Entered Password
+[INFO ] 2023-09-21 01:01:15.299 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2023-09-21 23:27:41.999 [main] MyEComStore - URL Opened
+[INFO ] 2023-09-21 23:27:44.115 [main] MyEComStore - Clicked on Create Account in HomePage
+[INFO ] 2023-09-21 23:27:44.209 [main] MyEComStore - Enter FirstName
+[INFO ] 2023-09-21 23:27:45.281 [main] MyEComStore - Enter LastName
+[INFO ] 2023-09-21 23:27:46.385 [main] MyEComStore - Enter Email Address
+[INFO ] 2023-09-21 23:27:47.480 [main] MyEComStore - Enter Password
+[INFO ] 2023-09-21 23:27:48.556 [main] MyEComStore - Enter Confirm Password
+[INFO ] 2023-09-21 23:27:52.411 [main] MyEComStore - Clicked on Create Account Button
+[INFO ] 2023-09-21 23:28:01.752 [main] MyEComStore - URL Opened
+[INFO ] 2023-09-21 23:28:02.760 [main] MyEComStore - Clicked on Sign In Link in HomePage
+[INFO ] 2023-09-21 23:28:02.984 [main] MyEComStore - Entered Email
+[INFO ] 2023-09-21 23:28:04.063 [main] MyEComStore - Entered Password
+[INFO ] 2023-09-21 23:28:06.876 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2023-09-22 01:13:08.936 [main] MyEComStore - URL Opened
+[INFO ] 2023-09-22 01:13:09.872 [main] MyEComStore - Clicked on Create Account in HomePage
+[INFO ] 2023-09-22 01:13:10.000 [main] MyEComStore - Enter FirstName
+[INFO ] 2023-09-22 01:13:11.069 [main] MyEComStore - Enter LastName
+[INFO ] 2023-09-22 01:13:12.187 [main] MyEComStore - Enter Email Address
+[INFO ] 2023-09-22 01:13:13.296 [main] MyEComStore - Enter Password
+[INFO ] 2023-09-22 01:13:14.369 [main] MyEComStore - Enter Confirm Password
+[INFO ] 2023-09-22 01:13:15.461 [main] MyEComStore - Clicked on Create Account Button
+[INFO ] 2023-09-22 01:15:31.931 [main] MyEComStore - URL Opened
+[INFO ] 2023-09-22 01:15:32.969 [main] MyEComStore - Clicked on Create Account in HomePage
+[INFO ] 2023-09-22 01:15:33.203 [main] MyEComStore - Enter FirstName
+[INFO ] 2023-09-22 01:15:34.283 [main] MyEComStore - Enter LastName
+[INFO ] 2023-09-22 01:15:35.430 [main] MyEComStore - Enter Email Address
+[INFO ] 2023-09-22 01:15:36.535 [main] MyEComStore - Enter Password
+[INFO ] 2023-09-22 01:15:37.624 [main] MyEComStore - Enter Confirm Password
+[INFO ] 2023-09-22 01:15:42.213 [main] MyEComStore - Clicked on Create Account Button
+[INFO ] 2023-09-22 08:31:53.095 [main] MyEComStore - URL Opened
+[INFO ] 2023-09-22 08:31:54.100 [main] MyEComStore - Clicked on Create Account in HomePage
+[INFO ] 2023-09-22 08:31:54.274 [main] MyEComStore - Enter FirstName
+[INFO ] 2023-09-22 08:31:55.349 [main] MyEComStore - Enter LastName
+[INFO ] 2023-09-22 08:31:56.477 [main] MyEComStore - Enter Email Address
+[INFO ] 2023-09-22 08:31:57.571 [main] MyEComStore - Enter Password
+[INFO ] 2023-09-22 08:31:58.653 [main] MyEComStore - Enter Confirm Password
+[INFO ] 2023-09-22 08:32:03.369 [main] MyEComStore - Clicked on Create Account Button
+[INFO ] 2023-09-22 08:32:06.424 [main] MyEComStore - User Created: Welcome, Anant Kumar!
+[INFO ] 2023-09-22 08:32:06.455 [main] MyEComStore - Message displayed after creating Profile: Thank you for registering with Main Website Store.
+[INFO ] 2023-09-22 08:45:43.960 [main] MyEComStore - URL Opened
+[INFO ] 2023-09-22 08:45:44.907 [main] MyEComStore - Clicked on Create Account in HomePage
+[INFO ] 2023-09-22 08:45:45.080 [main] MyEComStore - Enter FirstName
+[INFO ] 2023-09-22 08:45:46.157 [main] MyEComStore - Enter LastName
+[INFO ] 2023-09-22 08:45:47.286 [main] MyEComStore - Enter Email Address
+[INFO ] 2023-09-22 08:45:48.379 [main] MyEComStore - Enter Password
+[INFO ] 2023-09-22 08:45:49.474 [main] MyEComStore - Enter Confirm Password
+[INFO ] 2023-09-22 08:45:53.146 [main] MyEComStore - Clicked on Create Account Button
+[INFO ] 2023-09-22 08:46:09.457 [main] MyEComStore - URL Opened
+[INFO ] 2023-09-22 08:46:10.307 [main] MyEComStore - Clicked on Sign In Link in HomePage
+[INFO ] 2023-09-22 08:46:10.490 [main] MyEComStore - Entered Email
+[INFO ] 2023-09-22 08:46:11.571 [main] MyEComStore - Entered Password
+[INFO ] 2023-09-22 08:46:14.187 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2023-09-22 08:48:48.380 [main] MyEComStore - URL Opened
+[INFO ] 2023-09-22 08:48:50.102 [main] MyEComStore - Clicked on Create Account in HomePage
+[INFO ] 2023-09-22 08:48:50.182 [main] MyEComStore - Enter FirstName
+[INFO ] 2023-09-22 08:48:51.246 [main] MyEComStore - Enter LastName
+[INFO ] 2023-09-22 08:48:52.388 [main] MyEComStore - Enter Email Address
+[INFO ] 2023-09-22 08:48:53.499 [main] MyEComStore - Enter Password
+[INFO ] 2023-09-22 08:48:54.587 [main] MyEComStore - Enter Confirm Password
+[INFO ] 2023-09-22 08:48:58.307 [main] MyEComStore - Clicked on Create Account Button
