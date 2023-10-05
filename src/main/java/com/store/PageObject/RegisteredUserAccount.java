@@ -33,5 +33,14 @@ public class RegisteredUserAccount {
         return alertMessage.getText();
     }
 
+    //If the email address is already used and Account already created and giving error message to Login
+    @FindBy(xpath = "//div[@role='alert']")
+    WebElement errorAlertMessage;
+
+    public String getErrorAlertMessage()
+    {
+        return errorAlertMessage.getText();
+    }
+
 
 }

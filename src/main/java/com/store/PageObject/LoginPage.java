@@ -16,11 +16,14 @@ public class LoginPage {
     }
 
     //Identifying the WebElements on the Login Page
-    @FindBy(name = "login[username]")
-    WebElement txt_enterEmailAddress;
 
+    //Registered Username
+    @FindBy(name = "login[username]")
+    WebElement txt_registeredUserEmail;
+
+    //Registered User Password
     @FindBy(name = "login[password]")
-    WebElement txt_enterPassword;
+    WebElement txt_registeredUserPassword;
 
     @FindBy(xpath = "//fieldset[@class='fieldset login']//span[contains(text(),'Sign In')]")
     WebElement btn_singIn;
@@ -28,16 +31,15 @@ public class LoginPage {
 
     //Identify action on WebElement
     public void enterEmailAddress(String emailAddress) {
-        txt_enterEmailAddress.sendKeys(emailAddress);
+        txt_registeredUserEmail.sendKeys(emailAddress);
     }
 
     public void enterPassword(String password) {
-        txt_enterPassword.sendKeys(password);
+        txt_registeredUserPassword.sendKeys(password);
     }
 
     public void clickSignInButton() {
         btn_singIn.click();
     }
-
 
 }

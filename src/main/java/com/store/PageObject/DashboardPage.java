@@ -19,13 +19,12 @@ public class DashboardPage {
 
     //Identifying the WebElements on the Dashboard Page
 
-    //Logged In UserName
-    @FindBy(xpath = "//div[@class='panel header']//span[@class='logged-in']") //validating Logged Username
+    //Logged In Username
+    @FindBy(xpath = "//div[@class='panel header']//span[@class='logged-in']")
     WebElement heading_loggedInUsername;
 
 
-    public String getLoggedInUserName()
-    {
+    public String getLoggedInUserName() {
         String text = heading_loggedInUsername.getText();
         return text;
     }

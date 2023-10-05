@@ -13,3 +13,4 @@ Automation Framework based for E-Commerce Application is based on Java Selenium 
 2. 2nd Test Case for Login Test- Validated the Logged in User
 3. 3rd Test Case -Dashbaord- In Progress
 
+--Implemented the TestNG Listener with Extent Reports and failed Test Screenshot implementation
