@@ -5,3 +5,95 @@
 [INFO ] 2023-09-25 02:11:19.947 [main] MyEComStore - Entered Password
 [INFO ] 2023-09-25 02:11:21.649 [main] MyEComStore - Clicked on Sign In Button
 [INFO ] 2023-09-25 02:11:22.686 [main] MyEComStore - VerifyLogin - Failed
+[INFO ] 2023-10-05 20:10:14.339 [main] MyEComStore - URL Opened
+[INFO ] 2023-10-05 20:10:14.353 [main] MyEComStore - Verify Login test execution started
+[INFO ] 2023-10-05 20:10:15.284 [main] MyEComStore - Clicked on Sign In Link in HomePage
+[INFO ] 2023-10-05 20:10:15.492 [main] MyEComStore - Entered Email
+[INFO ] 2023-10-05 20:10:15.599 [main] MyEComStore - Entered Password
+[INFO ] 2023-10-05 20:10:19.227 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2023-10-05 20:10:20.658 [main] MyEComStore - VerifyLogin - Failed
+[INFO ] 2023-10-07 01:44:49.318 [main] MyEComStore - URL Opened
+[INFO ] 2023-10-07 01:44:49.352 [main] MyEComStore - Verify Login test execution started
+[INFO ] 2023-10-07 01:44:50.876 [main] MyEComStore - Clicked on Sign In Link in HomePage
+[INFO ] 2023-10-07 01:44:51.050 [main] MyEComStore - Entered Email
+[INFO ] 2023-10-07 01:44:51.138 [main] MyEComStore - Entered Password
+[INFO ] 2023-10-07 01:44:53.034 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2023-10-07 01:47:28.443 [main] MyEComStore - URL Opened
+[INFO ] 2023-10-07 01:47:28.531 [main] MyEComStore - Verify Login test execution started
+[INFO ] 2023-10-07 01:47:30.062 [main] MyEComStore - Clicked on Sign In Link in HomePage
+[INFO ] 2023-10-07 01:47:30.221 [main] MyEComStore - Entered Email
+[INFO ] 2023-10-07 01:47:30.375 [main] MyEComStore - Entered Password
+[INFO ] 2023-10-07 01:47:32.213 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2024-02-05 01:08:24.792 [main] MyEComStore - URL Opened
+[INFO ] 2024-02-05 01:08:24.820 [main] MyEComStore - Verify Login test execution started
+[INFO ] 2024-02-05 01:08:26.079 [main] MyEComStore - Clicked on Sign In Link in HomePage
+[INFO ] 2024-02-05 01:08:26.157 [main] MyEComStore - Entered Email
+[INFO ] 2024-02-05 01:08:26.237 [main] MyEComStore - Entered Password
+[INFO ] 2024-02-05 01:08:28.140 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2024-02-24 02:20:18.088 [main] MyEComStore - URL Opened
+[INFO ] 2024-02-24 02:20:18.104 [main] MyEComStore - Verify Login test execution started
+[INFO ] 2024-02-24 02:20:19.295 [main] MyEComStore - Clicked on Sign In Link in HomePage
+[INFO ] 2024-02-24 02:20:19.342 [main] MyEComStore - Entered Email
+[INFO ] 2024-02-24 02:20:19.374 [main] MyEComStore - Entered Password
+[INFO ] 2024-02-24 02:20:21.805 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2024-02-24 17:28:59.054 [main] MyEComStore - URL Opened
+[INFO ] 2024-02-24 17:28:59.073 [main] MyEComStore - Verify Login test execution started
+[INFO ] 2024-02-24 17:29:00.007 [main] MyEComStore - Clicked on Sign In Link in HomePage
+[INFO ] 2024-02-24 17:29:00.091 [main] MyEComStore - Entered Email
+[INFO ] 2024-02-24 17:29:00.169 [main] MyEComStore - Entered Password
+[INFO ] 2024-02-24 17:29:02.237 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2024-02-24 17:33:34.764 [main] MyEComStore - URL Opened
+[INFO ] 2024-02-24 17:33:34.780 [main] MyEComStore - Verify Login test execution started
+[INFO ] 2024-02-24 17:33:35.883 [main] MyEComStore - Clicked on Sign In Link in HomePage
+[INFO ] 2024-02-24 17:33:35.993 [main] MyEComStore - Entered Email
+[INFO ] 2024-02-24 17:33:36.026 [main] MyEComStore - Entered Password
+[INFO ] 2024-02-24 17:33:37.717 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2024-02-24 17:35:11.488 [main] MyEComStore - URL Opened
+[INFO ] 2024-02-24 17:35:12.794 [main] MyEComStore - Clicked on Create Account link in HomePage
+[INFO ] 2024-02-24 17:35:17.061 [main] MyEComStore - Clicked on Create Account Button
+[INFO ] 2024-02-24 17:35:18.387 [main] MyEComStore - User Created: Welcome, Anant Kumar!
+[INFO ] 2024-02-24 17:35:18.387 [main] MyEComStore - Message displayed after creating Profile: Thank you for registering with Main Website Store.
+[INFO ] 2024-02-24 17:38:48.155 [main] MyEComStore - URL Opened
+[INFO ] 2024-02-24 17:38:49.326 [main] MyEComStore - Clicked on Create Account link in HomePage
+[INFO ] 2024-02-24 17:38:53.289 [main] MyEComStore - Clicked on Create Account Button
+[INFO ] 2024-02-24 17:38:54.352 [main] MyEComStore - User Created: Welcome, Anant Kumar!
+[INFO ] 2024-02-24 17:38:54.353 [main] MyEComStore - Message displayed after creating Profile: Thank you for registering with Main Website Store.
+[INFO ] 2024-02-24 17:40:29.974 [main] MyEComStore - URL Opened
+[INFO ] 2024-02-24 17:40:31.918 [main] MyEComStore - Clicked on Create Account link in HomePage
+[INFO ] 2024-02-24 17:40:34.815 [main] MyEComStore - Clicked on Create Account Button
+[INFO ] 2024-02-24 17:42:40.818 [main] MyEComStore - URL Opened
+[INFO ] 2024-02-24 17:42:43.767 [main] MyEComStore - Clicked on Create Account link in HomePage
+[INFO ] 2024-02-24 17:42:48.318 [main] MyEComStore - Clicked on Create Account Button
+[INFO ] 2024-02-24 17:42:49.564 [main] MyEComStore - User Created: Welcome, Anant Kumar!
+[INFO ] 2024-02-24 17:42:49.564 [main] MyEComStore - Message displayed after creating Profile: Thank you for registering with Main Website Store.
+[INFO ] 2024-02-24 17:43:41.716 [main] MyEComStore - URL Opened
+[INFO ] 2024-02-24 17:43:41.734 [main] MyEComStore - Verify Login test execution started
+[INFO ] 2024-02-24 17:43:43.447 [main] MyEComStore - Clicked on Sign In Link in HomePage
+[INFO ] 2024-02-24 17:43:43.705 [main] MyEComStore - Entered Email
+[INFO ] 2024-02-24 17:43:43.768 [main] MyEComStore - Entered Password
+[INFO ] 2024-02-24 17:43:45.307 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2024-02-24 17:43:48.346 [main] MyEComStore - VerifyLogin - Failed
+[INFO ] 2024-02-24 17:45:23.145 [main] MyEComStore - URL Opened
+[INFO ] 2024-02-24 17:45:25.179 [main] MyEComStore - Clicked on Create Account link in HomePage
+[INFO ] 2024-02-24 17:45:29.948 [main] MyEComStore - Clicked on Create Account Button
+[INFO ] 2024-02-24 17:45:31.564 [main] MyEComStore - User Created: Welcome, Anant Kumar!
+[INFO ] 2024-02-24 17:45:31.564 [main] MyEComStore - Message displayed after creating Profile: Thank you for registering with Main Website Store.
+[INFO ] 2024-02-24 17:45:35.660 [main] MyEComStore - URL Opened
+[INFO ] 2024-02-24 17:45:35.662 [main] MyEComStore - Verify Login test execution started
+[INFO ] 2024-02-24 17:45:36.659 [main] MyEComStore - Clicked on Sign In Link in HomePage
+[INFO ] 2024-02-24 17:45:36.850 [main] MyEComStore - Entered Email
+[INFO ] 2024-02-24 17:45:36.941 [main] MyEComStore - Entered Password
+[INFO ] 2024-02-24 17:45:38.732 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2024-02-24 17:45:41.764 [main] MyEComStore - VerifyLogin - Failed
+[INFO ] 2024-02-24 17:48:40.122 [main] MyEComStore - URL Opened
+[INFO ] 2024-02-24 17:48:42.948 [main] MyEComStore - Clicked on Create Account link in HomePage
+[INFO ] 2024-02-24 17:48:47.420 [main] MyEComStore - Clicked on Create Account Button
+[INFO ] 2024-02-24 17:48:48.567 [main] MyEComStore - User Created: Welcome, Anant Kumar!
+[INFO ] 2024-02-24 17:48:48.567 [main] MyEComStore - Message displayed after creating Profile: Thank you for registering with Main Website Store.
+[INFO ] 2024-02-24 17:48:52.836 [main] MyEComStore - URL Opened
+[INFO ] 2024-02-24 17:48:52.836 [main] MyEComStore - Verify Login test execution started
+[INFO ] 2024-02-24 17:48:53.894 [main] MyEComStore - Clicked on Sign In Link in HomePage
+[INFO ] 2024-02-24 17:48:54.113 [main] MyEComStore - Entered Email
+[INFO ] 2024-02-24 17:48:54.256 [main] MyEComStore - Entered Password
+[INFO ] 2024-02-24 17:48:55.891 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2024-02-24 17:48:58.926 [main] MyEComStore - VerifyLogin - Passed

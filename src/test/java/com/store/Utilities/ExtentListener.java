@@ -21,7 +21,6 @@ public class ExtentListener implements ITestListener {
     ExtentSparkReporter sparkhtmlReporter;
     ExtentReports extentReports;
     ExtentTest extentTest;
-
     public void configureReport() {
 
         //Time stamp in real time scenario
@@ -90,7 +89,6 @@ public class ExtentListener implements ITestListener {
         if (screenshotFile.exists()) {
             extentTest.fail("Captured Screenshot is below: " + extentTest.addScreenCaptureFromPath(screenShotPath));
         }
-
     }
 
     //When Test Case gets skipped , this method is called

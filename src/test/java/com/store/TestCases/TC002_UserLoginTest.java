@@ -34,13 +34,13 @@ public class TC002_UserLoginTest extends BaseClass {
 
         lp.clickSignInButton();
         logger.info("Clicked on Sign In Button");
-        Thread.sleep(1000);
+        Thread.sleep(3000);
 
         //verifying Logged In Username
         DashboardPage dp = new DashboardPage(driver);
         String userName = dp.getLoggedInUserName();
 
-        if(userName.equalsIgnoreCase("Welcome, Anant Kumar9!"))
+        if(userName.equalsIgnoreCase("Welcome, Anant Kumar!"))
         {
             logger.info("VerifyLogin - Passed");
             Assert.assertTrue(true);

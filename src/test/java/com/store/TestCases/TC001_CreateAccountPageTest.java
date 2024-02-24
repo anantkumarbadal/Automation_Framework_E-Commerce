@@ -12,7 +12,7 @@ public class TC001_CreateAccountPageTest extends BaseClass {
     //inheriting all the re-usable methods from Base Class
 
     //Creating Test Case
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void tc001_verifyUserAccountRegistration() throws InterruptedException {
 
 
@@ -29,7 +29,7 @@ public class TC001_CreateAccountPageTest extends BaseClass {
         cp.enterLastName("Kumar");
      //   logger.info("Enter LastName");
 
-        cp.enterEmailAddress("qatestingsdet@gmail.com");
+        cp.enterEmailAddress("qatestingsdet5@gmail.com");
      //   logger.info("Enter Email Address");
 
         cp.enterPassword("Test@1234");
