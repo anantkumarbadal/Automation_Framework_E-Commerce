@@ -4,6 +4,7 @@ import com.store.Bases.BaseClass;
 import com.store.PageObject.CreateAccountPage;
 import com.store.PageObject.HomePage;
 import com.store.PageObject.RegisteredUserAccount;
+import com.store.Utilities.EmailGenerator;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -29,7 +30,7 @@ public class TC001_CreateAccountPageTest extends BaseClass {
         cp.enterLastName("Kumar");
      //   logger.info("Enter LastName");
 
-        cp.enterEmailAddress("qatestingsdet5@gmail.com");
+        cp.enterEmailAddress(EmailGenerator.generateUniqueEmail());
      //   logger.info("Enter Email Address");
 
         cp.enterPassword("Test@1234");
@@ -56,7 +57,7 @@ public class TC001_CreateAccountPageTest extends BaseClass {
         {
             //Validating that the New User Account is created
             Assert.assertEquals(userName, "Welcome, Anant Kumar!");
-            logger.info("User Created: " + userName);
+            logger.info("User Created: " + userName + "\n Email: " + EmailGenerator.generateUniqueEmail());
 
             //Validating the Message after Creating a Profile
             Assert.assertEquals(alertMessage, "Thank you for registering with Main Website Store.");
