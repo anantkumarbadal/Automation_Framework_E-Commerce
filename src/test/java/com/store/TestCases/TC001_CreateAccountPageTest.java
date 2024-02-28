@@ -57,7 +57,8 @@ public class TC001_CreateAccountPageTest extends BaseClass {
         {
             //Validating that the New User Account is created
             Assert.assertEquals(userName, "Welcome, Anant Kumar!");
-            logger.info("User Created: " + userName + "\n Email: " + EmailGenerator.generateUniqueEmail());
+            logger.info("User Created: " + userName);
+            logger.info("Email: " + EmailGenerator.generateUniqueEmail());
 
             //Validating the Message after Creating a Profile
             Assert.assertEquals(alertMessage, "Thank you for registering with Main Website Store.");
