@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePage {
+public class Index_HomePage {
 
     //Create Page Object class with Page Factory
 
@@ -13,7 +13,7 @@ public class HomePage {
     WebDriver driver;
 
     //Creating Constructor to initialise the webdriver
-    public HomePage(WebDriver driver) //remote driver
+    public Index_HomePage(WebDriver driver) //remote driver
     {
         this.driver = driver;
 

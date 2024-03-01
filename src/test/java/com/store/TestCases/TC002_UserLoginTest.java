@@ -2,7 +2,7 @@ package com.store.TestCases;
 
 import com.store.Bases.BaseClass;
 import com.store.PageObject.DashboardPage;
-import com.store.PageObject.HomePage;
+import com.store.PageObject.Index_HomePage;
 import com.store.PageObject.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -18,7 +18,7 @@ public class TC002_UserLoginTest extends BaseClass {
         logger.info("Verify Login test execution started");
 
         //performing actions on the Homepage
-        HomePage hp = new HomePage(driver);
+        Index_HomePage hp = new Index_HomePage(driver);
         hp.clickSignIn();
         logger.info("Clicked on Sign In Link in HomePage");
 

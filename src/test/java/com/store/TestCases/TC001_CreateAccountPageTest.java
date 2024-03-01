@@ -2,7 +2,7 @@ package com.store.TestCases;
 
 import com.store.Bases.BaseClass;
 import com.store.PageObject.CreateAccountPage;
-import com.store.PageObject.HomePage;
+import com.store.PageObject.Index_HomePage;
 import com.store.PageObject.RegisteredUserAccount;
 import com.store.Utilities.EmailGenerator;
 import org.testng.Assert;
@@ -18,7 +18,7 @@ public class TC001_CreateAccountPageTest extends BaseClass {
 
 
         //performing actions on the Homepage
-        HomePage hp = new HomePage(driver);
+        Index_HomePage hp = new Index_HomePage(driver);
         hp.clickCreateAnAccount();
         logger.info("Clicked on Create Account link in HomePage");
 
