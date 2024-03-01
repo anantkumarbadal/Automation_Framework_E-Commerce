@@ -194,3 +194,16 @@
 [INFO ] 2024-02-29 02:33:22.943 [main] MyEComStore - Entered Password
 [INFO ] 2024-02-29 02:33:24.814 [main] MyEComStore - Clicked on Sign In Button
 [INFO ] 2024-02-29 02:33:27.851 [main] MyEComStore - VerifyLogin - Passed
+[INFO ] 2024-03-02 01:10:02.145 [main] MyEComStore - URL Opened
+[INFO ] 2024-03-02 01:10:03.510 [main] MyEComStore - Clicked on Create Account link in HomePage
+[INFO ] 2024-03-02 01:10:08.322 [main] MyEComStore - Clicked on Create Account Button
+[INFO ] 2024-03-02 01:10:09.815 [main] MyEComStore - User Created: Welcome, Anant Kumar!
+[INFO ] 2024-03-02 01:10:09.815 [main] MyEComStore - Email: test_20240302011009@mailinator.com
+[INFO ] 2024-03-02 01:10:09.815 [main] MyEComStore - Message displayed after creating Profile: Thank you for registering with Main Website Store.
+[INFO ] 2024-03-02 01:10:14.690 [main] MyEComStore - URL Opened
+[INFO ] 2024-03-02 01:10:14.690 [main] MyEComStore - Verify Login test execution started
+[INFO ] 2024-03-02 01:10:15.639 [main] MyEComStore - Clicked on Sign In Link in HomePage
+[INFO ] 2024-03-02 01:10:15.849 [main] MyEComStore - Entered Email
+[INFO ] 2024-03-02 01:10:15.947 [main] MyEComStore - Entered Password
+[INFO ] 2024-03-02 01:10:17.651 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2024-03-02 01:10:20.699 [main] MyEComStore - VerifyLogin - Passed
