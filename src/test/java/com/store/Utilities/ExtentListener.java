@@ -83,7 +83,7 @@ public class ExtentListener implements ITestListener {
         extentTest.fail(Result.getThrowable()); //logging all the failure details
 
         //Implementing capture screenshot to be taken while failing the Test Cases- and integrating this screenshot in Extent Report
-        String screenShotPath = System.getProperty("user.dir") + "\\Screenshots\\" + Result.getName() + ".png"; //created path in the directory to save the file
+        String screenShotPath = System.getProperty("user.dir") + "//Screenshots//" + Result.getName() + ".png"; //created path in the directory to save the file
         File screenshotFile = new File(screenShotPath); //creating the File in the location
 
         if (screenshotFile.exists()) {
