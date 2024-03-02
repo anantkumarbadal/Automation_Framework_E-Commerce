@@ -10,7 +10,7 @@ public class EmailGenerator {
     public static String generateUniqueEmail() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
         String timestamp = dateFormat.format(new Date());
-        String email = "test_" + timestamp + "@mailinator.com";
+        String email = "anant_" + timestamp + "@mailinator.com";
         return email;
     }
 

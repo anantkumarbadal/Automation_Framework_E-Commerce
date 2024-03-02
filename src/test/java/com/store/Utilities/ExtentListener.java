@@ -23,12 +23,15 @@ public class ExtentListener implements ITestListener {
     ExtentTest extentTest;
     public void configureReport() {
 
+        //fetching the browner name from config file to print in the extent report
+        ReadConfigFile readConfigFile = new ReadConfigFile();
+
         //Time stamp in real time scenario
 
-        String timestamp = new SimpleDateFormat("yyyy.mm.dd.hh.mm.ss").format(new Date());
+        String timestamp = new SimpleDateFormat("yyyy.MM.dd.hh.mm.ss").format(new Date());
         String reportName = "MyStoreExtentListenerReport-" + timestamp + ".html";
 
-        //These all will be called before Test Case Execution- once at class level
+        //These all will be called before Test Case Execution-once at class level
 
         //initializing the Extent classes
         sparkhtmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "//ExtentReport//" + reportName);
@@ -36,9 +39,9 @@ public class ExtentListener implements ITestListener {
         extentReports.attachReporter(sparkhtmlReporter);//attaching the htmlReporter here
 
         //adding system information/environment information
-        extentReports.setSystemInfo("Machine", "PC-1");
+        extentReports.setSystemInfo("Machine", "My Dell");
         extentReports.setSystemInfo("OS", "Window 11");
-        extentReports.setSystemInfo("Browser", "Chrome");
+        extentReports.setSystemInfo("Browser", readConfigFile.getBrowser());
         extentReports.setSystemInfo("Host", "QA");
         extentReports.setSystemInfo("Username", "Anant");
         extentReports.setSystemInfo("Report", "Extent Listener Report");

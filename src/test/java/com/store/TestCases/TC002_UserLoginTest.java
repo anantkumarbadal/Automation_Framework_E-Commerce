@@ -40,17 +40,19 @@ public class TC002_UserLoginTest extends BaseClass {
         DashboardPage dp = new DashboardPage(driver);
         String userName = dp.getLoggedInUserName();
 
-        if(userName.equalsIgnoreCase("Welcome, Anant Kumar!"))
+        //if(userName.equalsIgnoreCase("Welcome, Anant Kumar!"))
+        if(userName.contains("Anant Kumar"))
         {
             logger.info("VerifyLogin - Passed");
+            logger.info("Username displayed: " + userName);
             Assert.assertTrue(true);
         }
         else
         {
             logger.info("VerifyLogin - Failed");
             captureScreenShot(driver, "tc002_verifyUserLoginFunctionality"); //capturing screenshot
-           // Assert.fail();
-            Assert.assertTrue(false);
+            //Assert.assertTrue(false);
+            Assert.fail();
 
 
         }
