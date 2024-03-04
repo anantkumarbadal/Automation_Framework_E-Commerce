@@ -9,10 +9,11 @@
 
     <test name="Test">
         <classes>
-            <class name="com.store.TestCases.TC001_CreateAccountPageTest"/>
-            <class name="com.store.TestCases.TC002_UserLoginTest"/>
-        </classes>
-    </test>
-</suite>
+            <!--    <class name="com.store.TestCases.TC001_CreateAccountPageTest"/>
+                <class name="com.store.TestCases.TC002_UserLoginTest"/> -->
+                <class name="com.store.TestCases.TC004_UserLogin_DataDrivenTest"/>
+            </classes>
+        </test>
+    </suite>
 
 

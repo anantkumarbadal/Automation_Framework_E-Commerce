@@ -1,5 +1,6 @@
 package com.store.PageObject;
 
+import org.apache.xmlbeans.impl.xb.xsdschema.FieldDocument;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -27,6 +28,23 @@ public class DashboardPage {
     public String getLoggedInUserName() {
         String text = heading_loggedInUsername.getText();
         return text;
+    }
+
+    //Logout implementation
+    @FindBy(css = "div[class='panel header'] button[type='button']")
+    WebElement dropdown_customerMenu;
+
+    public void clickCustomerMenuDropdwon()
+    {
+        dropdown_customerMenu.click();
+    }
+
+    @FindBy(linkText = "Sign Out")
+    WebElement link_logout;
+
+    public void clickLogoutLink()
+    {
+        link_logout.click();
     }
 
 
