@@ -8,11 +8,12 @@ import com.store.Utilities.ReadExcelFile;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
 import java.io.IOException;
 
 public class TC004_UserLogin_DataDrivenTest extends BaseClass {
     @Test(dataProvider = "LoginDataProvider")//use this data provider to get the data
-    public void tc004_verifyUserLogin_DataDriven(String userEmail, String userPassword, String expectedUsername /*need this three parameters*/) throws InterruptedException, IOException {
+    public void tc004_verifyUserLogin_DataDriven(String userEmail, String userPassword, String expectedUserName /*need this three parameters*/) throws InterruptedException, IOException {
 
         logger.info("Verify Login test with Data Driven concept execution started");
 
@@ -25,11 +26,11 @@ public class TC004_UserLogin_DataDrivenTest extends BaseClass {
         LoginPage lp = new LoginPage(driver);
         lp.enterEmailAddress(userEmail);
         logger.info("Entered Email");
-     //   Thread.sleep(1000);
+        //   Thread.sleep(1000);
 
         lp.enterPassword(userPassword);
         logger.info("Entered Password");
-    //    Thread.sleep(1000);
+        //    Thread.sleep(1000);
 
         lp.clickSignInButton();
         logger.info("Clicked on Sign In Button");
@@ -37,26 +38,24 @@ public class TC004_UserLogin_DataDrivenTest extends BaseClass {
 
         //verifying Logged In Username
         DashboardPage dp = new DashboardPage(driver);
-        String userName = dp.getLoggedInUserName();
+        String actualUserName = dp.getLoggedInUserName();
 
         //if(userName.equalsIgnoreCase("Welcome, Anant Kumar!"))
-        if(userName.contains(expectedUsername))
-        {
+        if (actualUserName.contains(expectedUserName)) {
             logger.info("VerifyLogin - Passed");
-            logger.info("Username displayed: " + userName);
+            logger.info("Username displayed: " + actualUserName);
             Assert.assertTrue(true);
 
             //Sign out
             dp.clickCustomerMenuDropdwon();
             dp.clickLogoutLink();
             logger.info("Clicked on Logout");
-        }
-        else
-        {
+        } else {
             logger.info("VerifyLogin - Failed");
             captureScreenShot(driver, "tc004_verifyUserLogin_DataDriven"); //capturing screenshot
-            //Assert.assertTrue(false);
-            Assert.fail();
+
+              Assert.assertTrue(false, "Actual User Name: " + actualUserName + ", Expected User Name: " + expectedUserName);
+          //  Assert.fail("Actual User Name: " + actualUserName + ", Expected User Name: " + expectedUserName);
         }
 
     }
@@ -65,8 +64,7 @@ public class TC004_UserLogin_DataDrivenTest extends BaseClass {
     @DataProvider(name = "LoginDataProvider")
     public String[][] LoginDataProvider()//lecture-4 35 minutes
     {
-        //System.out.println(System.getProperty("user.dir"));
-    //    String fileName = System.getProperty("user.dir") + "\\src\\test\\TestData\\MyStoreTestData.xlsx";
+        // String fileName = System.getProperty("user.dir") + "\\src\\test\\TestData\\MyStoreTestData.xlsx";
         String fileName = "src/test/TestData/MyStoreTestData.xlsx";
 
         int totalRows = ReadExcelFile.getRowCount(fileName, "LoginTestData");

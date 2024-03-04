@@ -11,6 +11,7 @@
         <classes>
             <!--    <class name="com.store.TestCases.TC001_CreateAccountPageTest"/>
                 <class name="com.store.TestCases.TC002_UserLoginTest"/> -->
+                <class name="com.store.TestCases.TC003_CreateAccount_DataDrivenTest"/>
                 <class name="com.store.TestCases.TC004_UserLogin_DataDrivenTest"/>
             </classes>
         </test>
