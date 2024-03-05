@@ -47,5 +47,19 @@ public class DashboardPage {
         link_logout.click();
     }
 
+    //Dashboard Page components---------------------------
+
+    //Store Logo
+  //  @FindBy(linkText = "store logo")
+    @FindBy(xpath = "//a[@aria-label='store logo']//img")
+    WebElement link_storeLogo;
+
+    public void clickStoreLogo()
+    {
+        link_storeLogo.click();
+    }
+
+    //
+
 
 }

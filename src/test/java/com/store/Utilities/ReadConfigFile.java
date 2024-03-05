@@ -7,7 +7,7 @@ public class ReadConfigFile {
 
     //Using Properties class to read the file
 
-    Properties properties;
+    static Properties properties;
 
     String filePath = "src/test/resources/config.properties";
 
@@ -47,6 +47,20 @@ public class ReadConfigFile {
         }
         else
             throw new RuntimeException("browser not specified in config file");
+    }
+
+    //applying the user defined parameters for the properties file value- globally accessible
+    public static String getGlobalValue(String key)
+    {
+        String value = properties.getProperty(key);
+
+        //checking if the value is not null
+        if (value != null)
+        {
+            return value;
+        }
+        else
+            throw new RuntimeException("value not specified in config file for this key: " + key);
     }
 
 
