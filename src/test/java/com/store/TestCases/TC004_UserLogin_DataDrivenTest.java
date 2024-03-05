@@ -40,7 +40,6 @@ public class TC004_UserLogin_DataDrivenTest extends BaseClass {
         DashboardPage dp = new DashboardPage(driver);
         String actualUserName = dp.getLoggedInUserName();
 
-        //if(userName.equalsIgnoreCase("Welcome, Anant Kumar!"))
         if (actualUserName.contains(expectedUserName)) {
             logger.info("VerifyLogin - Passed");
             logger.info("Username displayed: " + actualUserName);

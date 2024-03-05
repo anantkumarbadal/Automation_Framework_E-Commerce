@@ -24,7 +24,7 @@ public class TC002_UserLoginTest extends BaseClass {
 
         //performing actions on the Sign In Page
         LoginPage lp = new LoginPage(driver);
-        lp.enterEmailAddress("qatestingsdet@gmail.com");
+        lp.enterEmailAddress("testAutomation@mailinator.com");
         logger.info("Entered Email");
      //   Thread.sleep(1000);
 
