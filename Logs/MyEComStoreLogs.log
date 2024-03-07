@@ -1,138 +1,51 @@
-[INFO ] 2024-03-02 18:26:41.472 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-02 18:26:42.516 [main] MyEComStore - Clicked on Create Account link in HomePage
-[INFO ] 2024-03-02 18:26:46.851 [main] MyEComStore - Clicked on Create Account Button
-[INFO ] 2024-03-02 18:26:48.125 [main] MyEComStore - User Created: Welcome, Anant Kumar!
-[INFO ] 2024-03-02 18:26:48.126 [main] MyEComStore - Email: test_20240302182648@mailinator.com
-[INFO ] 2024-03-02 18:26:48.127 [main] MyEComStore - Message displayed after creating Profile: Thank you for registering with Main Website Store.
-[INFO ] 2024-03-02 18:26:52.984 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-02 18:26:52.984 [main] MyEComStore - Verify Login test execution started
-[INFO ] 2024-03-02 18:26:54.015 [main] MyEComStore - Clicked on Sign In Link in HomePage
-[INFO ] 2024-03-02 18:26:54.199 [main] MyEComStore - Entered Email
-[INFO ] 2024-03-02 18:26:54.274 [main] MyEComStore - Entered Password
-[INFO ] 2024-03-02 18:26:55.767 [main] MyEComStore - Clicked on Sign In Button
-[INFO ] 2024-03-02 19:14:39.983 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-02 19:14:42.047 [main] MyEComStore - Clicked on Create Account link in HomePage
-[INFO ] 2024-03-02 19:14:46.517 [main] MyEComStore - Clicked on Create Account Button
-[INFO ] 2024-03-02 19:14:47.837 [main] MyEComStore - User Created: Welcome, Anant Kumar!
-[INFO ] 2024-03-02 19:14:47.837 [main] MyEComStore - Email: test_20240302191447@mailinator.com
-[INFO ] 2024-03-02 19:14:47.837 [main] MyEComStore - Message displayed after creating Profile: Thank you for registering with Main Website Store.
-[INFO ] 2024-03-02 19:14:52.908 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-02 19:14:52.910 [main] MyEComStore - Verify Login test execution started
-[INFO ] 2024-03-02 19:14:53.922 [main] MyEComStore - Clicked on Sign In Link in HomePage
-[INFO ] 2024-03-02 19:14:54.174 [main] MyEComStore - Entered Email
-[INFO ] 2024-03-02 19:14:54.258 [main] MyEComStore - Entered Password
-[INFO ] 2024-03-02 19:14:56.412 [main] MyEComStore - Clicked on Sign In Button
-[INFO ] 2024-03-02 19:14:59.467 [main] MyEComStore - VerifyLogin - Failed
-[INFO ] 2024-03-02 19:23:19.073 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-02 19:23:22.165 [main] MyEComStore - Clicked on Create Account link in HomePage
-[INFO ] 2024-03-02 19:23:27.476 [main] MyEComStore - Clicked on Create Account Button
-[INFO ] 2024-03-02 19:23:29.086 [main] MyEComStore - User Created: Welcome, Anant Kumar!
-[INFO ] 2024-03-02 19:23:29.087 [main] MyEComStore - Email: test_20240302192329@mailinator.com
-[INFO ] 2024-03-02 19:23:29.087 [main] MyEComStore - Message displayed after creating Profile: Thank you for registering with Main Website Store.
-[INFO ] 2024-03-02 19:23:33.853 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-02 19:23:33.856 [main] MyEComStore - Verify Login test execution started
-[INFO ] 2024-03-02 19:23:34.887 [main] MyEComStore - Clicked on Sign In Link in HomePage
-[INFO ] 2024-03-02 19:23:35.186 [main] MyEComStore - Entered Email
-[INFO ] 2024-03-02 19:23:35.335 [main] MyEComStore - Entered Password
-[INFO ] 2024-03-02 19:23:37.279 [main] MyEComStore - Clicked on Sign In Button
-[INFO ] 2024-03-02 19:23:40.329 [main] MyEComStore - VerifyLogin - Failed
-[INFO ] 2024-03-02 23:48:04.395 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-02 23:48:05.753 [main] MyEComStore - Clicked on Create Account link in HomePage
-[INFO ] 2024-03-02 23:48:10.593 [main] MyEComStore - Clicked on Create Account Button
-[INFO ] 2024-03-02 23:48:11.900 [main] MyEComStore - User Created: Welcome, Anant Kumar!
-[INFO ] 2024-03-02 23:48:11.900 [main] MyEComStore - Email: test_20240302234811@mailinator.com
-[INFO ] 2024-03-02 23:48:11.900 [main] MyEComStore - Message displayed after creating Profile: Thank you for registering with Main Website Store.
-[INFO ] 2024-03-02 23:48:16.102 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-02 23:48:16.102 [main] MyEComStore - Verify Login test execution started
-[INFO ] 2024-03-02 23:48:17.086 [main] MyEComStore - Clicked on Sign In Link in HomePage
-[INFO ] 2024-03-02 23:48:17.280 [main] MyEComStore - Entered Email
-[INFO ] 2024-03-02 23:48:17.380 [main] MyEComStore - Entered Password
-[INFO ] 2024-03-02 23:48:19.203 [main] MyEComStore - Clicked on Sign In Button
-[INFO ] 2024-03-02 23:48:22.248 [main] MyEComStore - VerifyLogin - Failed
-[INFO ] 2024-03-03 01:52:31.397 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-03 01:52:32.448 [main] MyEComStore - Clicked on Create Account link in HomePage
-[INFO ] 2024-03-03 01:52:37.200 [main] MyEComStore - Clicked on Create Account Button
-[INFO ] 2024-03-03 01:52:38.439 [main] MyEComStore - User Created: Welcome, Anant Kumar!
-[INFO ] 2024-03-03 01:52:38.439 [main] MyEComStore - Email: test_20240303015238@mailinator.com
-[INFO ] 2024-03-03 01:52:38.439 [main] MyEComStore - Message displayed after creating Profile: Thank you for registering with Main Website Store.
-[INFO ] 2024-03-03 01:52:43.481 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-03 01:52:43.482 [main] MyEComStore - Verify Login test execution started
-[INFO ] 2024-03-03 01:52:44.500 [main] MyEComStore - Clicked on Sign In Link in HomePage
-[INFO ] 2024-03-03 01:52:44.683 [main] MyEComStore - Entered Email
-[INFO ] 2024-03-03 01:52:44.826 [main] MyEComStore - Entered Password
-[INFO ] 2024-03-03 01:52:46.630 [main] MyEComStore - Clicked on Sign In Button
-[INFO ] 2024-03-03 01:52:49.809 [main] MyEComStore - VerifyLogin - Passed
-[INFO ] 2024-03-03 01:53:13.596 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-03 01:53:15.719 [main] MyEComStore - Clicked on Create Account link in HomePage
-[INFO ] 2024-03-03 01:53:19.863 [main] MyEComStore - Clicked on Create Account Button
-[INFO ] 2024-03-03 01:53:21.112 [main] MyEComStore - User Created: Welcome, Anant Kumar!
-[INFO ] 2024-03-03 01:53:21.112 [main] MyEComStore - Email: test_20240303015321@mailinator.com
-[INFO ] 2024-03-03 01:53:21.112 [main] MyEComStore - Message displayed after creating Profile: Thank you for registering with Main Website Store.
-[INFO ] 2024-03-03 01:53:46.669 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-03 01:53:46.671 [main] MyEComStore - Verify Login test execution started
-[INFO ] 2024-03-03 01:53:48.433 [main] MyEComStore - Clicked on Sign In Link in HomePage
-[INFO ] 2024-03-03 01:53:48.612 [main] MyEComStore - Entered Email
-[INFO ] 2024-03-03 01:53:48.687 [main] MyEComStore - Entered Password
-[INFO ] 2024-03-03 01:53:50.269 [main] MyEComStore - Clicked on Sign In Button
-[INFO ] 2024-03-03 01:53:53.423 [main] MyEComStore - VerifyLogin - Passed
-[INFO ] 2024-03-03 01:57:26.088 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-03 01:57:28.421 [main] MyEComStore - Clicked on Create Account link in HomePage
-[INFO ] 2024-03-03 01:57:32.947 [main] MyEComStore - Clicked on Create Account Button
-[INFO ] 2024-03-03 01:57:34.297 [main] MyEComStore - User Created: Welcome, Anant Kumar!
-[INFO ] 2024-03-03 01:57:34.297 [main] MyEComStore - Email: test_20240303015734@mailinator.com
-[INFO ] 2024-03-03 01:57:34.297 [main] MyEComStore - Message displayed after creating Profile: Thank you for registering with Main Website Store.
-[INFO ] 2024-03-03 01:57:41.234 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-03 01:57:41.237 [main] MyEComStore - Verify Login test execution started
-[INFO ] 2024-03-03 01:57:43.328 [main] MyEComStore - Clicked on Sign In Link in HomePage
-[INFO ] 2024-03-03 01:57:43.513 [main] MyEComStore - Entered Email
-[INFO ] 2024-03-03 01:57:43.574 [main] MyEComStore - Entered Password
-[INFO ] 2024-03-03 01:57:45.042 [main] MyEComStore - Clicked on Sign In Button
-[INFO ] 2024-03-03 01:57:48.073 [main] MyEComStore - VerifyLogin - Passed
-[INFO ] 2024-03-03 02:00:06.204 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-03 02:00:08.871 [main] MyEComStore - Clicked on Create Account link in HomePage
-[INFO ] 2024-03-03 02:00:13.343 [main] MyEComStore - Clicked on Create Account Button
-[INFO ] 2024-03-03 02:00:14.603 [main] MyEComStore - User Created: Welcome, Anant Kumar!
-[INFO ] 2024-03-03 02:00:14.603 [main] MyEComStore - Email: test_20240303020014@mailinator.com
-[INFO ] 2024-03-03 02:00:14.603 [main] MyEComStore - Message displayed after creating Profile: Thank you for registering with Main Website Store.
-[INFO ] 2024-03-03 02:00:21.177 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-03 02:00:21.178 [main] MyEComStore - Verify Login test execution started
-[INFO ] 2024-03-03 02:00:22.286 [main] MyEComStore - Clicked on Sign In Link in HomePage
-[INFO ] 2024-03-03 02:00:22.474 [main] MyEComStore - Entered Email
-[INFO ] 2024-03-03 02:00:22.549 [main] MyEComStore - Entered Password
-[INFO ] 2024-03-03 02:00:24.901 [main] MyEComStore - Clicked on Sign In Button
-[INFO ] 2024-03-03 02:00:27.972 [main] MyEComStore - VerifyLogin - Passed
-[INFO ] 2024-03-03 02:21:20.321 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-03 02:21:20.340 [main] MyEComStore - Verify Login test execution started
-[INFO ] 2024-03-03 02:21:21.357 [main] MyEComStore - Clicked on Sign In Link in HomePage
-[INFO ] 2024-03-03 02:21:21.550 [main] MyEComStore - Entered Email
-[INFO ] 2024-03-03 02:21:21.616 [main] MyEComStore - Entered Password
-[INFO ] 2024-03-03 02:21:23.289 [main] MyEComStore - Clicked on Sign In Button
-[INFO ] 2024-03-03 02:21:26.326 [main] MyEComStore - VerifyLogin - Passed
-[INFO ] 2024-03-03 02:22:49.858 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-03 02:22:49.869 [main] MyEComStore - Verify Login test execution started
-[INFO ] 2024-03-03 02:22:50.854 [main] MyEComStore - Clicked on Sign In Link in HomePage
-[INFO ] 2024-03-03 02:22:51.045 [main] MyEComStore - Entered Email
-[INFO ] 2024-03-03 02:22:51.121 [main] MyEComStore - Entered Password
-[INFO ] 2024-03-03 02:22:52.893 [main] MyEComStore - Clicked on Sign In Button
-[INFO ] 2024-03-03 02:22:55.945 [main] MyEComStore - VerifyLogin - Passed
-[INFO ] 2024-03-03 02:22:55.945 [main] MyEComStore - Username displayed: Welcome, Anant Kumar!
-[INFO ] 2024-03-03 02:24:01.608 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-03 02:24:01.626 [main] MyEComStore - Verify Login test execution started
-[INFO ] 2024-03-03 02:24:02.600 [main] MyEComStore - Clicked on Sign In Link in HomePage
-[INFO ] 2024-03-03 02:24:02.825 [main] MyEComStore - Entered Email
-[INFO ] 2024-03-03 02:24:02.898 [main] MyEComStore - Entered Password
-[INFO ] 2024-03-03 02:24:04.709 [main] MyEComStore - Clicked on Sign In Button
-[INFO ] 2024-03-03 02:24:07.735 [main] MyEComStore - VerifyLogin - Passed
-[INFO ] 2024-03-03 02:24:07.735 [main] MyEComStore - Username displayed: Welcome, Anant Kumar!
-[INFO ] 2024-03-03 02:28:02.918 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-03 02:28:05.213 [main] MyEComStore - Clicked on Create Account link in HomePage
-[INFO ] 2024-03-03 02:28:09.701 [main] MyEComStore - Clicked on Create Account Button
-[INFO ] 2024-03-03 02:28:11.090 [main] MyEComStore - User Created: Welcome, Anant Kumar!
-[INFO ] 2024-03-03 02:28:11.090 [main] MyEComStore - Email: test_20240303022811@mailinator.com
-[INFO ] 2024-03-03 02:28:11.090 [main] MyEComStore - Message displayed after creating Profile: Thank you for registering with Main Website Store.
-[INFO ] 2024-03-03 02:29:11.753 [main] MyEComStore - URL Opened
-[INFO ] 2024-03-03 02:29:13.745 [main] MyEComStore - Clicked on Create Account link in HomePage
-[INFO ] 2024-03-03 02:29:18.073 [main] MyEComStore - Clicked on Create Account Button
-[INFO ] 2024-03-03 02:29:19.395 [main] MyEComStore - User Created: Welcome, Anant Kumar!
-[INFO ] 2024-03-03 02:29:19.395 [main] MyEComStore - Email: anant_20240303022919@mailinator.com
-[INFO ] 2024-03-03 02:29:19.395 [main] MyEComStore - Message displayed after creating Profile: Thank you for registering with Main Website Store.
+[INFO ] 2024-03-07 01:24:06.641 [main] MyEComStore - URL Opened
+[INFO ] 2024-03-07 01:24:06.657 [main] MyEComStore - Verify Search Product Page execution started
+[INFO ] 2024-03-07 01:24:07.737 [main] MyEComStore - Clicked on Sign in link in Homepage
+[INFO ] 2024-03-07 01:24:08.012 [main] MyEComStore - Entered Email
+[INFO ] 2024-03-07 01:24:08.089 [main] MyEComStore - Entered Password
+[INFO ] 2024-03-07 01:24:10.016 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2024-03-07 02:02:14.656 [main] MyEComStore - URL Opened
+[INFO ] 2024-03-07 02:02:14.670 [main] MyEComStore - Verify Search Product Page execution started
+[INFO ] 2024-03-07 02:02:15.619 [main] MyEComStore - Clicked on Sign in link in Homepage
+[INFO ] 2024-03-07 02:02:15.852 [main] MyEComStore - Entered Email
+[INFO ] 2024-03-07 02:02:15.931 [main] MyEComStore - Entered Password
+[INFO ] 2024-03-07 02:02:17.501 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2024-03-07 02:02:18.618 [main] MyEComStore - Entered Search key in Search Box
+[INFO ] 2024-03-07 02:02:20.392 [main] MyEComStore - Clicked on Search button and navigated to Search Result Page
+[INFO ] 2024-03-07 02:02:21.453 [main] MyEComStore - Search Product Test Case- Failed
+[INFO ] 2024-03-07 02:04:28.350 [main] MyEComStore - URL Opened
+[INFO ] 2024-03-07 02:04:28.367 [main] MyEComStore - Verify Search Product Page execution started
+[INFO ] 2024-03-07 02:04:29.425 [main] MyEComStore - Clicked on Sign in link in Homepage
+[INFO ] 2024-03-07 02:04:29.706 [main] MyEComStore - Entered Email
+[INFO ] 2024-03-07 02:04:29.810 [main] MyEComStore - Entered Password
+[INFO ] 2024-03-07 02:04:31.599 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2024-03-07 02:04:32.711 [main] MyEComStore - Entered Search key in Search Box
+[INFO ] 2024-03-07 02:04:33.749 [main] MyEComStore - Clicked on Search button and navigated to Search Result Page
+[INFO ] 2024-03-07 02:04:34.811 [main] MyEComStore - Search Product Test Case- FailedProduct Displayed: Jade Yoga Jacket
+[INFO ] 2024-03-07 02:05:27.405 [main] MyEComStore - URL Opened
+[INFO ] 2024-03-07 02:05:27.417 [main] MyEComStore - Verify Search Product Page execution started
+[INFO ] 2024-03-07 02:05:28.367 [main] MyEComStore - Clicked on Sign in link in Homepage
+[INFO ] 2024-03-07 02:05:28.582 [main] MyEComStore - Entered Email
+[INFO ] 2024-03-07 02:05:28.661 [main] MyEComStore - Entered Password
+[INFO ] 2024-03-07 02:05:30.391 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2024-03-07 02:05:31.479 [main] MyEComStore - Entered Search key in Search Box
+[INFO ] 2024-03-07 02:05:32.807 [main] MyEComStore - Clicked on Search button and navigated to Search Result Page
+[INFO ] 2024-03-07 02:05:33.856 [main] MyEComStore - Search Product Test Case- Passed
+[INFO ] 2024-03-07 22:10:53.891 [main] MyEComStore - URL Opened
+[INFO ] 2024-03-07 22:10:53.904 [main] MyEComStore - Verify Search Product Page execution started
+[INFO ] 2024-03-07 22:10:54.872 [main] MyEComStore - Clicked on Sign in link in Homepage
+[INFO ] 2024-03-07 22:10:55.111 [main] MyEComStore - Entered Email
+[INFO ] 2024-03-07 22:10:55.195 [main] MyEComStore - Entered Password
+[INFO ] 2024-03-07 22:10:57.041 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2024-03-07 22:10:58.192 [main] MyEComStore - Entered Search key in Search Box
+[INFO ] 2024-03-07 22:10:59.440 [main] MyEComStore - Clicked on Search button and navigated to Search Result Page
+[INFO ] 2024-03-07 22:11:00.498 [main] MyEComStore - Search Product Test Case- Passed Product Displayed: Jade Yoga Jacket
+[INFO ] 2024-03-08 00:51:21.549 [main] MyEComStore - URL Opened
+[INFO ] 2024-03-08 00:51:21.562 [main] MyEComStore - Verify Search Product Page execution started
+[INFO ] 2024-03-08 00:51:22.516 [main] MyEComStore - Clicked on Sign in link in Homepage
+[INFO ] 2024-03-08 00:51:22.747 [main] MyEComStore - Entered Email
+[INFO ] 2024-03-08 00:51:22.817 [main] MyEComStore - Entered Password
+[INFO ] 2024-03-08 00:51:24.473 [main] MyEComStore - Clicked on Sign In Button
+[INFO ] 2024-03-08 00:51:25.541 [main] MyEComStore - Entered Search key in Search Box
+[INFO ] 2024-03-08 00:51:26.805 [main] MyEComStore - Clicked on Search button and navigated to Search Result Page
+[INFO ] 2024-03-08 00:51:27.859 [main] MyEComStore - Search Product Test Case- Passed, Product Displayed: Jade Yoga Jacket

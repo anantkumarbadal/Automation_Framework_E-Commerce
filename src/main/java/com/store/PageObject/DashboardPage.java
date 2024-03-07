@@ -59,7 +59,21 @@ public class DashboardPage {
         link_storeLogo.click();
     }
 
-    //
+    //Search box
+    @FindBy(id = "search")
+    WebElement searchbox;
+
+    public void enterDataInSearchBox(String searchKey)
+    {
+        searchbox.sendKeys(searchKey);
+    }
+    @FindBy(xpath = "//button[@title='Search']")
+    WebElement submit_search;
+
+    public void clickOnSearchButton()
+    {
+        submit_search.click();
+    }
 
 
 }
