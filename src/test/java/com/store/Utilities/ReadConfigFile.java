@@ -6,7 +6,6 @@ import java.util.Properties;
 public class ReadConfigFile {
 
     //Using Properties class to read the file
-
     static Properties properties;
 
     String filePath = "src/test/resources/config.properties";

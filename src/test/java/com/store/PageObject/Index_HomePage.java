@@ -1,11 +1,12 @@
 package com.store.PageObject;
 
+import com.store.Bases.BaseClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Index_HomePage {
+public class Index_HomePage  {
 
     //Create Page Object class with Page Factory
 
@@ -19,6 +20,7 @@ public class Index_HomePage {
 
         PageFactory.initElements(driver, this); //driver is used to search the Web Elements
     }
+
 
     //Identifying the WebElements on the Homepage
     @FindBy(linkText = "Create an Account")

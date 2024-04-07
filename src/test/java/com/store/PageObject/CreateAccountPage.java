@@ -1,5 +1,6 @@
 package com.store.PageObject;
 
+import com.store.Bases.BaseClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -17,6 +18,8 @@ public class CreateAccountPage {
 
         PageFactory.initElements(driver, this); //driver is used to search the Web Elements
     }
+
+
 
     //Identifying the WebElements on the Create Account Page
     @FindBy(id = "firstname")

@@ -4,7 +4,6 @@ import com.store.Bases.BaseClass;
 import com.store.PageObject.CreateAccountPage;
 import com.store.PageObject.Index_HomePage;
 import com.store.PageObject.RegisteredUserAccount;
-import com.store.Utilities.EmailGenerator;
 import com.store.Utilities.ReadExcelFile;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -61,6 +60,7 @@ public class TC003_CreateAccount_DataDrivenTest extends BaseClass {
         //fetching error message is the Account already exist with the Email
         String errorMessage = regUser.getErrorAlertMessage();
 
+        //Implement in better way------------------------------------
         if (actualUserName.contains(expectedUserName))
         {
             //Validating that the New User Account is created

@@ -9,12 +9,17 @@
 
     <test name="Test">
         <classes>
-            <!--    <class name="com.store.TestCases.TC001_CreateAccountPageTest"/>
-                <class name="com.store.TestCases.TC002_UserLoginTest"/> -->
-                <class name="com.store.TestCases.TC003_CreateAccount_DataDrivenTest"/>
-                <class name="com.store.TestCases.TC004_UserLogin_DataDrivenTest"/>
-            </classes>
-        </test>
-    </suite>
+            <class name="com.store.TestCases.TC001_CreateAccountPageTest"/>
+            <class name="com.store.TestCases.TC002_UserLoginTest"/>
+            <class name="com.store.TestCases.TC003_CreateAccount_DataDrivenTest"/>
+            <class name="com.store.TestCases.TC004_UserLogin_DataDrivenTest"/>
+            <class name="com.store.TestCases.TC005_DashboardPageTest"/>
+            <class name="com.store.TestCases.TC006_SearchProductTest"/>
+            <class name="com.store.TestCases.TC007_AddToCart_PlaceOrder"/>
+
+
+        </classes>
+    </test>
+</suite>
 
 

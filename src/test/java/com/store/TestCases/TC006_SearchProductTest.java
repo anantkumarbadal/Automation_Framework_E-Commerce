@@ -1,6 +1,5 @@
 package com.store.TestCases;
 
-import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.store.Bases.BaseClass;
 import com.store.PageObject.DashboardPage;
 import com.store.PageObject.Index_HomePage;
@@ -53,7 +52,7 @@ public class TC006_SearchProductTest extends BaseClass {
         {
             logger.info("Search Product Test Case- Passed" + ", Product Displayed: " + searchResultPageProductName);
             Assert.assertTrue(true);
-            dp.clickCustomerMenuDropdwon();
+            dp.clickCustomerMenuDropdown();
             dp.clickLogoutLink();
         }
         else

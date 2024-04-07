@@ -4,12 +4,12 @@ import com.store.Utilities.ReadConfigFile;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -29,7 +29,7 @@ public class BaseClass {
 
     public static WebDriver driver;
     public static Logger logger;
-    public static WebDriverWait explicitWait;
+
 
     //setting up a method to launch the browser
     @BeforeClass
@@ -55,7 +55,6 @@ public class BaseClass {
         }
 
         //Implicit wait for 10 seconds and apply for all web elements
-        //   assert driver != null;
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         //maximize the window
@@ -66,7 +65,7 @@ public class BaseClass {
 
         //open url
         driver.get(url);
-        logger.info("URL Opened");
+        logger.info("URL Opened: " + driver.getCurrentUrl());
 
     }
 
@@ -76,6 +75,8 @@ public class BaseClass {
         driver.close();
         driver.quit();
     }
+
+    // Add common reusable methods------------------------------------------------------------------------------------
 
     //Creating method for screenshot- It will take the screenshot and save in the Root Folder
     public void captureScreenShot(WebDriver driver, String testCaseName) throws IOException

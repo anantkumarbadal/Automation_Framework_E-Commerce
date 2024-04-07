@@ -46,7 +46,7 @@ public class TC004_UserLogin_DataDrivenTest extends BaseClass {
             Assert.assertTrue(true);
 
             //Sign out
-            dp.clickCustomerMenuDropdwon();
+            dp.clickCustomerMenuDropdown();
             dp.clickLogoutLink();
             logger.info("Clicked on Logout");
         } else {
