@@ -80,7 +80,7 @@ public class BaseClass {
         }
 
         //Implicit wait for 10 seconds and apply for all web elements
-       / assert driver != null;
+       // assert driver != null;
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         //maximize the window
