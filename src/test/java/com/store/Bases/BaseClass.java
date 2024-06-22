@@ -6,8 +6,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -48,6 +50,29 @@ public class BaseClass {
             case "firefox":
                 driver= new FirefoxDriver();
                 break;
+
+        /* using headless browser Headless browsers allow you to run your tests without opening a visible browser window,
+        making them ideal for CI environments.
+        */
+
+            case "chrome-headless":
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--headless");
+                options.addArguments("--disable-gpu");
+                options.addArguments("--window-size=1920,1200");
+
+                driver = new ChromeDriver(options);
+                break;
+
+            case "firefox-headless":
+                FirefoxOptions options1 = new FirefoxOptions();
+                options1.addArguments("--headless");
+                options1.addArguments("--disable-gpu");
+                options1.addArguments("--window-size=1920,1200");
+
+                driver = new FirefoxDriver(options1);
+                break;
+
 
             default:
                 driver = null;
